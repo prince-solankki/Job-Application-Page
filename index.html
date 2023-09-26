@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2nd</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <form action="#">
+                <h1 id="web" >Job Application</h1>
+                <span id="web"><b>(Web)</b></span>
+
+                <h4 class="alignment-left">First Name</h4>
+                <input class="alignment-left" type="text" placeholder="Enter First Name" name="firstname">
+
+                <div class="right">
+                    <h4 class="alignment-right">Last Name</h4>
+                    <input type="text" placeholder="Enter Last Name" name="lastname" class="alignment-right">
+                </div>
+
+                <h4 class="alignment-left">Email</h4>
+                <input class="alignment-left" type="email" placeholder="Email" name="email">
+
+                <div class="right">
+                    <h4 class="alignment-right">Job Role</h4>
+                    <select class="alignment-right" name="Job Role" id="selector">
+                        <option value="Backend Developer">Backend Developer</option>
+                        <option value="Frontend Developer">Frontend Developer</option>
+                        <option value="Full Stack Developer">Full Stack Developer</option>
+                        <option value="Android Developer">Android Developer</option>
+                    </select>
+                </div>
+
+                <h4>Enter Address</h4>
+                <textarea name="Address" id="Address" cols="30" rows="10"></textarea>
+
+                <h4 class="alignment-left">City</h4>
+                <input class="alignment-left" type="text" placeholder="Enter City">
+
+                <div class="right">
+                    <h4 class="alignment-right">Pincode</h4>
+                    <input class="alignment-right" type="text" placeholder="Enter Pincode">
+                </div>
+
+                <h4 class="alignment-left">Start Date</h4>
+                <input class="alignment-left" type="date" name="datet" id="datet" />
+
+
+                <div class="right">
+                    <h4 class="alignment-right">Upload Your CV</h4>
+                    <input type="file" class="alignment-right" name="file" id="file">
+                </div>
+
+                <button type="submit">Apply Now</button>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
